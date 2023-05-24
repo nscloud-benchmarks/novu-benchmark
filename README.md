@@ -1,3 +1,3 @@
-# Build Benchmark
+# Novu Benchmark
 
-Periodic benchmark of Docker build of our favorite open-source projects.
+An hourly benchmark that builds Novu with Docker vs using a Namespace Remote Builder.
