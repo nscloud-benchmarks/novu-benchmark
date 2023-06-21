@@ -10,7 +10,10 @@ permissions:
 jobs:
   docker-build:
     name: Build with Docker
-    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        os: [ubuntu-20.04, nscloud]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
 
@@ -25,7 +28,10 @@ jobs:
 
   nsc-build:
     name: Build with Namespace
-    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        os: [ubuntu-20.04, nscloud]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
 
