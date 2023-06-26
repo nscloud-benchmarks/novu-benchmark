@@ -1,6 +1,3 @@
-[submodule "targets/novu"]
-	path = targets/novu
-	url = https://github.com/novuhq/novu.git
 [submodule "novu"]
 	path = novu
 	url = https://github.com/novuhq/novu.git
