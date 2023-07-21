@@ -1,4 +1,0 @@
-[submodule "novu"]
-	path = novu
-	url = https://github.com/novuhq/novu.git
-	branch = main

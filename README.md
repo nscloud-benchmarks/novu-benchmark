@@ -1,3 +1,3 @@
 # Novu Benchmark
 
-An hourly benchmark that builds Novu with Docker vs using a Namespace Remote Builder.
+This benchmark was moved to [novu-benchmark/build](https://github.com/novu-benchmark/build).
